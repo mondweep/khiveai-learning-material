@@ -1,0 +1,52 @@
+{
+  "name": "lionagi-learning-platform",
+  "version": "1.0.0",
+  "description": "Interactive learning platform for mastering lionagi SDK",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node interactive-learning.js",
+    "dev": "node interactive-learning.js",
+    "build": "echo 'Build would compile TypeScript'",
+    "test": "node simple-start.js test",
+    "test:integration": "node test-runner.js",
+    "test:watch": "echo 'Watch tests would run here'",
+    "test:coverage": "echo 'Coverage tests would run here'",
+    "lint": "echo 'Linting would run here'",
+    "typecheck": "echo 'TypeScript checking would validate all modules'",
+    "format": "echo 'Formatting would run here'",
+    "validate": "npm run test && npm run typecheck",
+    "demo": "node simple-start.js quickstart",
+    "playground": "node interactive-learning.js playground",
+    "assess": "node simple-start.js assess",
+    "projects": "node simple-start.js projects",
+    "quickstart": "node simple-start.js quickstart",
+    "continue": "node simple-start.js continue"
+  },
+  "keywords": [
+    "lionagi",
+    "AI",
+    "machine learning",
+    "education",
+    "interactive learning",
+    "SDK",
+    "tutorial",
+    "adaptive learning"
+  ],
+  "author": "KHive AI Learning Team",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khiveai/lionagi-learning-material.git"
+  }
+}

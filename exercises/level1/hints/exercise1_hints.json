@@ -1,0 +1,8 @@
+{
+  "exercise1_basic_branch": [
+    "Start by importing the Branch class from lionagi",
+    "Create a Branch instance with: branch = Branch()",
+    "Use the chat method: await branch.chat('your message here')",
+    "The response can be printed directly or accessed via response.content if it's a message object"
+  ]
+}

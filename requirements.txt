@@ -1,0 +1,64 @@
+# lionagi Interactive Learning Platform - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core lionagi framework
+lionagi>=0.1.0
+
+# AI Model Providers
+openai>=1.0.0
+anthropic>=0.7.0
+
+# Async and HTTP
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.2
+
+# Data handling and validation
+pydantic>=2.0.0
+pydantic[email]>=2.0.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Database support (for examples)
+aiosqlite>=0.19.0
+sqlalchemy>=2.0.0
+
+# Web framework (for API examples)
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+
+# Utility libraries
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+
+# Testing frameworks
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.0
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Jupyter support (optional)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.2.0
+
+# Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Logging and monitoring
+structlog>=23.0.0
+rich>=13.5.0
+
+# Optional: Advanced features
+redis>=4.6.0  # For caching
+celery>=5.3.0  # For background tasks
